@@ -1,0 +1,83 @@
+body, 
+html, body > div:first-child,
+div#__next,
+div#__next > div {
+    height: 100%;
+}
+
+.overflow {
+    height: 50%;
+    overflow:hidden;;
+} 
+
+.overflow .card-img-top {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.overflow .card-img-top:hover {
+    transform: scale(1,3);
+}
+
+#nprogress .bar {
+    background: #ff0500 !important;
+
+
+}
+
+#nprogress .spsinner-icon {
+    border-top-color : #ffbb00;
+    border-left-color: #ffbb00;
+}
+
+
+
+ul.socialIcons {
+    padding: 12;
+    text-align: center;
+  }
+  
+  .socialIcons li {
+    background-color: yellow;
+    list-style: none;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 2em;
+    overflow: hidden;
+  }
+  
+  .socialIcons li a {
+    display: block;
+    padding: 0.5em;
+    min-width: 1em;
+    max-width: 7em;
+    height: 4em;
+    white-space: nowrap;
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+  }
+  
+  .socialIcons li i {
+    margin-right: 1.5em;
+  }
+  
+  .socialIcons li:hover a {
+    max-width: 400px;
+    padding-right: 2em;
+  }
+  
+  .socialIcons .facebook {
+    background-color: #3b5998;
+    box-shadow: 0 0 16px #284291;
+  }
+  
+  .socialIcons .twitter {
+    background-color: #00aced;
+    box-shadow: 0 0 16px #00aced;
+  }
+  
+
+
